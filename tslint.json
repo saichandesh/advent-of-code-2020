@@ -1,0 +1,78 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+        "no-unused-expression": true
+    },
+    "rules": {
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "member-access": false,
+        "ordered-imports": true,
+        "member-ordering": false,
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "interface-name": false,
+        "array-type": [
+            true,
+            "array"
+        ],
+        "no-empty-interface": false,
+        "no-empty": false,
+        "arrow-parens": true,
+        "object-literal-sort-keys": false,
+        "max-classes-per-file": false,
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "one-line": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "triple-equals": true,
+        "no-duplicate-imports": true,
+        "prefer-const": true,
+        "one-variable-per-declaration": true,
+        "no-trailing-whitespace": [
+            true,
+            "ignore-comments",
+            "ignore-blank-lines"
+        ],
+        "space-before-function-paren": false,
+        "class-name": true,
+        "switch-default": true,
+        "await-promise": true,
+        "max-line-length": [
+            true,
+            200
+        ],
+        "no-unused-expression": true,
+        "eofline": false,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-type-operator",
+            "check-preblock",
+            "check-postbrace"
+        ]
+    },
+    "rulesDirectory": []
+}
